@@ -30,13 +30,13 @@ The boilerplate of Vue v3, Typescript, Vite, Vue Router, Pinia, Axios, Tailwind 
 
 ## ❓ What's Included?
 
-- [] Authentication: Provides a secure login system for users.
-- [] Authorization: Implements role-based access control to manage user permissions.
-- [] Multiple Language: Supports localization and enables users to switch between different languages.
-- [] Theme (Light/Dark/System): Offers a choice of light, dark, or system-based theme for a personalized user experience.
-- [] Form Validation: Includes form validation functionality to ensure data integrity and improve user experience.
-- [] Error Handling: Handles and displays error messages in a user-friendly manner.
-- [] API Integration: Integrates with external APIs to fetch data and provide dynamic content.
+- [ ] Authentication: Provides a secure login system for users.
+- [ ] Authorization: Implements role-based access control to manage user permissions.
+- [ ] Multiple Language: Supports localization and enables users to switch between different languages.
+- [ ] Theme (Light/Dark/System): Offers a choice of light, dark, or system-based theme for a personalized user experience.
+- [ ] Form Validation: Includes form validation functionality to ensure data integrity and improve user experience.
+- [ ] Error Handling: Handles and displays error messages in a user-friendly manner.
+- [ ] API Integration: Integrates with external APIs to fetch data and provide dynamic content.
 - [ ] Responsive Design: Ensures the application is optimized for various screen sizes and devices.
 - [ ] Testing: Includes a test suite with unit tests and integration tests for reliable code quality.
 - [ ] Documentation: Provides comprehensive documentation to guide developers and users.
