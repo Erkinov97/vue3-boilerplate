@@ -54,8 +54,7 @@ The boilerplate of Vue v3, Typescript, Vite, Vue Router, Pinia, Axios, Tailwind 
 | Vue i18n     | ![Vue i18n](https://img.shields.io/badge/%5E9.13.1-blue.svg)            | Internationalization plugin for Vue.js applications, enabling multi-language support.              |
 | Pinia        | ![Pinia](https://img.shields.io/badge/%5E2.1.7-blue.svg)                | An intuitive store for Vue.js applications, providing centralized state management.                |
 | Axios        | ![Axios](https://img.shields.io/badge/%5E1.6.8-blue.svg)                | Promise-based HTTP client for making API requests.                                                 |
-| Tailwind CSS | ![Tailwind CSS](https://img.shields.io/badge/%5E3.4.3-blue.svg)         | A utility-first CSS framework for rapid UI 
-development.                                   |
+| Tailwind CSS | ![Tailwind CSS](https://img.shields.io/badge/%5E3.4.3-blue.svg)         | A utility-first CSS framework for rapid UI development.
 | Vite-Plugin-Vue-Devtools | ![ Vite-Plugin-Vue-Devtools](https://img.shields.io/badge/%5E3.4.3-blue.svg)         | The next iteration of Vue DevTools.                                     |
 
 ## 🗂️ Project Structure
@@ -91,7 +90,7 @@ development.                                   |
 │   ├── services
 │   ├── types
 │   ├── utils
-│   ├── App.ts
+│   ├── App.vue
 │   └── main.ts
 ├── package.json
 └── ...
@@ -104,7 +103,7 @@ development.                                   |
 
 [&#8593; Back to top](#-table-of-contents)
 
-1. [Node Js](https://nodejs.org/en/) version `v20.10.0`. The current Long Term Support (LTS) release is an ideal starting point.
+1. [Node Js](https://nodejs.org/en/) version `^v20`.
 2. [Visual Studio Code](https://code.visualstudio.com/download). Visual Studio Code is the free and open-sourced code editor. It is one of the top most editor used especially for JavaScript application development.
 
    **Recommended Plugin for VSCode**
@@ -114,9 +113,8 @@ development.                                   |
    - [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
    - [Prettier ESLint](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint)
    - [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
-   - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
    - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-   - [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
+   - [Pretty TypeScript Errors](https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors)
    - [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
 ### Installation
