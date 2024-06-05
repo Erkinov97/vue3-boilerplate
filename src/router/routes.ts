@@ -1,17 +1,14 @@
-import { RouteRecordRaw } from "vue-router";
-import { perRouteMiddleware } from "./middleware";
+import type { RouteRecordRaw } from "vue-router";
+import { perRouteMiddleware } from "./guard";
 
 // pages
-import HomeView from "@/views/Home.vue";
 import NotFound from "@/views/NotFound.vue";
+import { publicRoutes } from "./publicRoutes";
+import { privateRoutes } from "./privateRoutes";
 
 const routes: RouteRecordRaw[] = [
-  {
-    path: "/",
-    name: "Home",
-    component: HomeView,
-    meta: { requiresAuth: false },
-  },
+  ...publicRoutes,
+  ...privateRoutes,
   {
     path: "/:pathMatch(.*)*",
     name: "NotFound",

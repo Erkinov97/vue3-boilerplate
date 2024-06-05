@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import routes from "./routes";
-import { globalMiddleware } from "./middleware";
+import { globalMiddleware } from "./guard";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
